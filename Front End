@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+ <head>
+ <meta charset="utf-8">
+ <title>Sonpocket</title>
+ <meta name="description" content="楽しく散歩をするための手助けをするサイト">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <!-- [if lt IE 9] -->
+ 
+ <!-- cssと接続 -->
+ <link rel="stylesheet" href="button-style.css">
+ </head>
+ <body>
+ <!----- header----->
+ <!----- /header ----->
+ 
+ <!----- main ----->
+ <article>
+ <h1>Sompocket</h1>
+ <section>
+
+ <p>Let's Walk!</p>
+ </section>
+ </article>
+ <!----- /Mapボタン ----->
+ <div class="button003">
+	<a href="#">map</a>
+</div>
+ <!----- footer ----->
+ <!----- /footer ----->
+ </body>
+</html>
