@@ -1,0 +1,10 @@
+h1{
+    color:red;
+}
+
+.fuchidori {
+        color: blue;
+        -webkit-text-stroke: 1px #FFF;
+        text-stroke: 1px #FFF;
+  }
+

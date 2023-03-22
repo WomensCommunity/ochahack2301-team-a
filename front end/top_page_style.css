@@ -82,8 +82,8 @@
 
 
 body {
-    width: 600px;
-    height: 375px;
+    width: 1920px;
+    height: 1200px;
     background-image: url("tree-modified.jpg");
     /*背景画像を指定*/
     background-repeat: no-repeat;
