@@ -1,4 +1,3 @@
-/*中央のボタン*/
 .button003 a {
     background: #eee;
     border-radius: 50px;
@@ -12,6 +11,9 @@
     color: #313131;
     transition: 0.3s ease-in-out;
     font-weight: 500;
+    /*　位置の移動 */
+    right: 200px;
+
 }
 
 .button003 a:hover {
@@ -37,6 +39,48 @@
     border-color: #FFF;
 }
 
+.signUp a {
+    background: #eee;
+    border-radius: 50px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 260px;
+    padding: 10px 25px;
+    color: #313131;
+    transition: 0.3s ease-in-out;
+    font-weight: 500;
+    /* 位置の移動 */
+    bottom: 545px;
+    left: 200px;
+}
+
+.signUp a:hover {
+    background: #313131;
+    color: #FFF;
+}
+
+.signUp a:after {
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-top: 3px solid #313131;
+    border-right: 3px solid #313131;
+    transform: rotate(45deg) translateY(-50%);
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    border-radius: 1px;
+    transition: 0.3s ease-in-out;
+}
+
+.signUp a:hover:after {
+    border-color: #FFF;
+}
+
+
 body {
     width: 600px;
     height: 375px;
@@ -52,6 +96,7 @@ body {
 
 header {
     margin-top: 20px;
+    color: black;
     font-size: x-large;
     position: fixed;
     top: 0;
@@ -68,9 +113,19 @@ header {
 
 }
 
-p {
+.center {
+    text-align: center;
+}
 
-    text-align: justify;
+p {
+    position: relative;
+    left: 20px;
+
+    padding: 20px;
+    top: 100px;
+    font-family: arial;
+    font-size: xx-large;
+    color: #FFF;
 }
 
 .margin {
