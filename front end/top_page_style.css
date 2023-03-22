@@ -1,3 +1,4 @@
+/*中央のボタン*/
 .button003 a {
     background: #eee;
     border-radius: 50px;
@@ -12,10 +13,12 @@
     transition: 0.3s ease-in-out;
     font-weight: 500;
 }
+
 .button003 a:hover {
     background: #313131;
     color: #FFF;
 }
+
 .button003 a:after {
     content: '';
     width: 5px;
@@ -29,29 +32,47 @@
     border-radius: 1px;
     transition: 0.3s ease-in-out;
 }
+
 .button003 a:hover:after {
     border-color: #FFF;
 }
 
-body{
+body {
     width: 600px;
     height: 375px;
-    background-image: url("tree.jpg");/*背景画像を指定*/
-    background-repeat:no-repeat;/*背景画像の繰り返しを解除*/
+    background-image: url("tree-modified.jpg");
+    /*背景画像を指定*/
+    background-repeat: no-repeat;
+    /*背景画像の繰り返しを解除*/
     background-size: cover;
     width: 100%;
     max-width: 1280px;
     margin: auto;
 }
 
-h1{
-    text-align: center;
+header {
+    margin-top: 20px;
+    font-size: x-large;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.6;
+    backdrop-filter: blur(10px);
+    font-family: arial;
+
 }
 
-p{
-    text-align: center;
+p {
+
+    text-align: justify;
 }
 
-.margin{
+.margin {
     margin-top: 500px;
 }
